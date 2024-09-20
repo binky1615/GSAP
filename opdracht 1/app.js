@@ -1,0 +1,1 @@
+gsap.from("h1, h2, img", {x:1600, y:800, opacity:1, rotation:9999, duration: 1});
