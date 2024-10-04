@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: #3498db;
+}
+
+.box1 { background-image: url(img/forever.png); background-size: cover; }
+.box2 { background-image: url(img/jgeil.png); background-size: cover; }
+.box3 { background-image: url(img/DIO.png); background-size: cover; }
+.box4 { background-image: url(img/koichi.png); background-size: cover; }
+.box5 { background-image: url(img/mista.png); background-size: cover; }
+.box6 { background-image: url(img/narancia.png); background-size: cover; }
+
+.controls {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
